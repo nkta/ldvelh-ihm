@@ -1,1 +1,96 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'romance_fatal_serif_stdRg';
+  src: url('font/romance_fatal/romance_fatal_serif_jc_fonts-webfont.woff2') format('woff2'),
+       url('font/romance_fatal/romance_fatal_serif_jc_fonts-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'fanjofey_ahregular';
+  src: url('font/fanjofey/fanjofey-webfont.woff2') format('woff2'),
+       url('font/fanjofey/fanjofey-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'your_royal_majestyfancy';
+  src: url('font/your_royal/your_royal_majesty_fancy-webfont.woff2') format('woff2'),
+       url('font/your_royal/your_royal_majesty_fancy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+  font-family: 'mr_dafoeregular';
+  src: url('font/MrDafoe/mrdafoe-regular-webfont.woff2') format('woff2'),
+       url('font/MrDafoe/mrdafoe-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+  aside {
+    font-family: Arial;
+    font-size: 24px;
+  }
+  h1{
+    font-family: 'fanjofey_ahregular', Arial, Helvetica, sans-serif;
+    font-size: 62px;
+  }
+
+  article{
+    
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.75);
+  }
+
+  body {
+    color:black;
+    background-color:white;
+    background-image:url(https://i.pinimg.com/originals/b6/18/ea/b618ea30762146f7f1c959afd14a9867.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+  #titre_pricipale{
+    background-color:rgba(255, 255, 255, 0.5);
+    color : rgb(109, 6, 6)
+    
+  }
+
+  p{
+    font-family: 'mr_dafoeregular', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+  #jetde{
+    color: white;
+    height: 170px;
+    border-radius: 10px;
+    background-color: rgb(109, 6, 6, 0.75)
+  }
+  #numchap{
+    color: white;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(109, 6, 6, 0.75)
+  }
+  #choixChap{
+    color: white;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(109, 6, 6, 0.75)
+  }
+
+  nav{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    margin: 10px;
+
+  }

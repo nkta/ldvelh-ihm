@@ -1,0 +1,11 @@
+<section fxLayout="row" class="container">
+  <div class="row">
+      <article class="col-md-9">
+        <tr *ngFor="let livre of listeLivre" class="col-md-6">
+          <td>
+            <button routerLink='/page/{{ livre.titre }}' routerLinkActive="active" class="btn btn-success ">{{ livre.titreShow }}</button>
+          </td>
+      </tr>
+      </article>
+  </div>
+</section>

@@ -1,0 +1,11 @@
+<section fxLayout="row" class="container">
+  <div class="row">
+      <article width = '600px' class="col-md-12">
+        <tr *ngFor="let collection of listeCollection" class="col-md-6">
+          <td>
+              <button routerLink='/livre-menu/{{ collection.collection }}' routerLinkActive="active" class="btn btn-success ">{{ collection.collectionShow }}</button>
+          </td>
+      </tr>
+      </article>
+  </div>
+</section>
